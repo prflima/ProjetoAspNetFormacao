@@ -27,3 +27,5 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\obj\Debug\net5.0\
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\obj\Debug\net5.0\ref\DevFreela.API.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\obj\Debug\net5.0\DevFreela.API.pdb
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\obj\Debug\net5.0\DevFreela.API.genruntimeconfig.cache
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Core.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Core.pdb
