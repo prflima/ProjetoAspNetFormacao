@@ -10,3 +10,6 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\De
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\DevFreela.Infrastructure.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\ref\DevFreela.Infrastructure.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\DevFreela.Infrastructure.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Core.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Core.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\DevFreela.Infrastructure.csproj.CopyComplete

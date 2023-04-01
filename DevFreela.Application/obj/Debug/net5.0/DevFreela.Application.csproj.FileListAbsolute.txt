@@ -1,0 +1,5 @@
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.AssemblyReference.cache
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfoInputs.cache
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfo.cs
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.CoreCompileInputs.cache
