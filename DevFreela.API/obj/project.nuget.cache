@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V3LnCHkWuSF1SUjAThCMV/w3BIgkR5hCqCt89EkWafkjDSEqXXfpFP38Efn32O4AwtASp2fRJZjMmyauAMSFKg==",
+  "dgSpecHash": "6cRN9saWkIUR/eYq/cQLhHPeaCb9sx5osTuJRS9QEcky5YD9wIwd3uNqK1HM9LOx8/sjVHYprPWFYbVgCpYbXg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.API\\DevFreela.API.csproj",
+  "projectFilePath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.API\\DevFreela.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DevFreela.API/1.0.0": {
         "dependencies": {
+          "DevFreela.Application": "1.0.0",
           "DevFreela.Core": "1.0.0",
           "DevFreela.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
@@ -386,6 +387,18 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
+      "DevFreela.Application/1.0.0": {
+        "dependencies": {
+          "DevFreela.Core": "1.0.0",
+          "DevFreela.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "DevFreela.Application.dll": {}
+        },
+        "compile": {
+          "DevFreela.Application.dll": {}
+        }
+      },
       "DevFreela.Core/1.0.0": {
         "runtime": {
           "DevFreela.Core.dll": {}
@@ -395,6 +408,9 @@
         }
       },
       "DevFreela.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DevFreela.Core": "1.0.0"
+        },
         "runtime": {
           "DevFreela.Infrastructure.dll": {}
         },
@@ -2149,6 +2165,11 @@
       "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "DevFreela.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DevFreela.Core/1.0.0": {
       "type": "project",

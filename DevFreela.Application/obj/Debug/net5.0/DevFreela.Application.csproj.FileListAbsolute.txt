@@ -3,3 +3,15 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfoInputs.cache
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfo.cs
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.deps.json
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\ref\DevFreela.Application.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Core.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Infrastructure.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Infrastructure.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Core.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.CopyComplete
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\ref\DevFreela.Application.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.pdb

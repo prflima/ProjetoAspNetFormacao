@@ -31,3 +31,5 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Core.pdb
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Infrastructure.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Infrastructure.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Application.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\DevFreela.Application.pdb

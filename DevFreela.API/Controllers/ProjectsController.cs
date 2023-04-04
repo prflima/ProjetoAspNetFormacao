@@ -1,53 +1,56 @@
 using DevFreela.API.Models;
+using DevFreela.Application.InputModels;
+using DevFreela.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
 namespace DevFreela.API.Controllers
 {
-    [Route("api/projects")]
+	[Route("api/projects")]
 	public class ProjectsController : ControllerBase
 	{
-		private OpeningTimeOption _options;
-		public ProjectsController(IOptions<OpeningTimeOption> options)
+		private readonly IProjectService _projectService;
+		public ProjectsController(IProjectService projectService)
 		{
-			_options = options.Value;
+			_projectService = projectService;
 		}
 		
 		// api/projects?query=net core
 		[HttpGet]
 		public IActionResult Get(string query)
 		{
-			// Necessary to implement the query search flow.
-
-			return Ok();
+			var projects = _projectService.GetAll(query);
+			return Ok(projects);
 		}
 
 		// api/projects/1
 		[HttpGet("{id}")]
 		public IActionResult GetById(int id)
 		{
-			// Need to implement the search flow by id
-
-			return Ok();
+			var project = _projectService.GetById(id);
+			
+			if(project == null) return NotFound();
+			
+			return Ok(project);
 		}
 
 		[HttpPost]
-		public IActionResult Post([FromBody] CreateProjectModel createProject)
+		public IActionResult Post([FromBody] NewProjectInputModel inputModel)
 		{
-			if (createProject.Title.Length > 50) return BadRequest();
+			if (inputModel.Title.Length > 50) return BadRequest();
 
-			// Necessary to implement the flow of creating a projectModel.
+			var id = _projectService.Create(inputModel);
 
-			return CreatedAtAction(nameof(GetById), new { id = createProject.Id }, createProject);
+			return CreatedAtAction(nameof(GetById), new { id = id }, inputModel);
 		}
 
 		// api/projects/2
 		[HttpPut("{id}")]
-		public IActionResult Put(int id, [FromBody] UpdateProjectModel updateProject)
+		public IActionResult Put(int id, [FromBody] UpdateProjectInputModel inputModel)
 		{
-			if (updateProject.Description.Length > 200) return BadRequest();
+			if (inputModel.Description.Length > 200) return BadRequest();
 
-			// Need to implement the update flow.
+			_projectService.Update(inputModel);
 
 			return NoContent();
 		}
@@ -56,15 +59,16 @@ namespace DevFreela.API.Controllers
 		[HttpDelete("{id}")]
 		public IActionResult Delete(int id)
 		{
-			// necessary to implement the flow to inactivate the projectModel
+			_projectService.Delete(id);
 
 			return NoContent();
 		}
 
 		// api/projects/1/comments
 		[HttpPost("{id}/comments")]
-		public IActionResult PostComment(int id, [FromBody] CreateCommentModel createComment)
+		public IActionResult PostComment(int id, [FromBody] CreateCommentInputModel inputModel)
 		{
+			_projectService.CreateComment(inputModel);
 			return NoContent();
 		}
 
@@ -72,6 +76,7 @@ namespace DevFreela.API.Controllers
 		[HttpPut("{id}/start")]
 		public IActionResult Start(int id)
 		{
+			_projectService.Start(id);
 			return NoContent();
 		}
 
@@ -79,6 +84,7 @@ namespace DevFreela.API.Controllers
 		[HttpPut("{id}/finish")]
 		public IActionResult Finish(int id)
 		{
+			_projectService.Finish(id);
 			return NoContent();
 		}
 	}
