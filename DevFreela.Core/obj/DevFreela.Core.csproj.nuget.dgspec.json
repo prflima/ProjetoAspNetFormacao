@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj": {}
+    "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj": {
+    "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectUniqueName": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj",
         "projectName": "DevFreela.Core",
-        "projectPath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectPath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj",
         "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\obj\\",
+        "outputPath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config"
