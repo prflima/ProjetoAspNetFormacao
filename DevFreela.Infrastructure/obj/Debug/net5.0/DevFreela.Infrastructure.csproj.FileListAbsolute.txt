@@ -13,3 +13,6 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\De
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Core.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Core.pdb
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\DevFreela.Infrastructure.csproj.CopyComplete
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Infrastructure.runtimeconfig.json
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\bin\Debug\net5.0\DevFreela.Infrastructure.runtimeconfig.dev.json
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Infrastructure\obj\Debug\net5.0\DevFreela.Infrastructure.genruntimeconfig.cache

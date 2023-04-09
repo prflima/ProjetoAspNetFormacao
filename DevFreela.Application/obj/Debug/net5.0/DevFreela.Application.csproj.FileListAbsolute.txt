@@ -15,3 +15,6 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\ref\DevFreela.Application.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.pdb
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.runtimeconfig.json
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.runtimeconfig.dev.json
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.genruntimeconfig.cache
