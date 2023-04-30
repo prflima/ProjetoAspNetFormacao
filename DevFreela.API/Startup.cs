@@ -36,7 +36,6 @@ namespace DevFreela.API
 				opt => opt.UseSqlServer(Configuration.GetConnectionString("DevFreelaConnection")));
 						
 			services.AddScoped<IProjectService, ProjectService>();
-			services.AddScoped<ISkillService, SkillService>();
 			
 			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProjectCommand).Assembly));
 

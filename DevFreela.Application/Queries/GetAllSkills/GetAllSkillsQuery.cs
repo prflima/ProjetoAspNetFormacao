@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.Application.ViewModels;
+using MediatR;
 
-namespace DevFreela.Application.Services.Interfaces
+namespace DevFreela.Application.Queries.GetAllSkills
 {
-    public interface ISkillService
+    public class GetAllSkillsQuery : IRequest<List<SkillViewModel>>
     {
-        List<SkillViewModel> GetAll();
+        
     }
 }
