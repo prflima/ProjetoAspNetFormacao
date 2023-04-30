@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.API.Models;
+using DevFreela.Application.Commands.CreateProject;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Infrastructure.Persistence;
@@ -33,11 +34,11 @@ namespace DevFreela.API
 		{
 			services.AddDbContext<DevFreelaDbContext>(
 				opt => opt.UseSqlServer(Configuration.GetConnectionString("DevFreelaConnection")));
-			
-			services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
-			
+						
 			services.AddScoped<IProjectService, ProjectService>();
 			services.AddScoped<ISkillService, SkillService>();
+			
+			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProjectCommand).Assembly));
 
 			services.AddControllers();
 			services.AddSwaggerGen(c =>
