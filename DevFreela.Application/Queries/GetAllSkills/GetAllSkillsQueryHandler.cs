@@ -21,11 +21,11 @@ namespace DevFreela.Application.Queries.GetAllSkills
 		
 		public async Task<List<SkillViewModel>> Handle(GetAllSkillsQuery request, CancellationToken cancellationToken)
 		{
-			var skills = await _dbContext.Skills.ToListAsync();
+			var skills =  _dbContext.Skills;
 
-            var skillsViewModel = skills
+            var skillsViewModel = await skills
                 .Select(s => new SkillViewModel(s.Id, s.Description))
-                .ToList();
+                .ToListAsync();
 
             return skillsViewModel;
 		}
