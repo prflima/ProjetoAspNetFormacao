@@ -11,6 +11,5 @@ namespace DevFreela.Application.Services.Interfaces
 	{
 		UserDetailsViewModel GetById(int id);
 		int Create(NewUserInputModel inputModel);
-		bool Login(int id, LoginInputModel inputModel);
 	}
 }
