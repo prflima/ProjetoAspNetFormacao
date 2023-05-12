@@ -6,7 +6,9 @@ using DevFreela.API.Models;
 using DevFreela.Application.Commands.CreateProject;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
+using DevFreela.Infrastructure.Persistence.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,7 +37,9 @@ namespace DevFreela.API
 			services.AddDbContext<DevFreelaDbContext>(
 				opt => opt.UseSqlServer(Configuration.GetConnectionString("DevFreelaConnection")));
 						
-			services.AddScoped<IProjectService, ProjectService>();
+			services.AddScoped<IProjectRepository, ProjectRepository>();
+			services.AddScoped<IUserRepository, UserRepository>();
+			services.AddScoped<ISkillRepository, SkillRepository>();
 			
 			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProjectCommand).Assembly));
 
