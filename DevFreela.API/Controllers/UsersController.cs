@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers
 {
+	[ApiController]
 	[Route("api/users")]
 	public class UsersController : ControllerBase
 	{
@@ -35,7 +36,7 @@ namespace DevFreela.API.Controllers
 		// api/users
 		[HttpPost]
 		public async Task<IActionResult> Post([FromBody] CreateUserCommand command)
-		{
+		{			
 			var id = await _mediator.Send(command);
 			
 			return CreatedAtAction(nameof(GetById), new { id = id}, command);

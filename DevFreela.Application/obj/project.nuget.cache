@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "95ckiXJvFLgvTOZc5SydumtZuR34ksY6QhV7U6NsfRxt8ew43zFU7T+V5LrHeOqSti4K7cEL53/Le1BccPBvsg==",
+  "dgSpecHash": "xQrEjs0RMHt8W5POdX6VDNOtq866l9+lmno7KIu3ZH2ShGr/JZ11WWt+hrFdQXqGNhg0jYoOjQ3swbt+2d84Rw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Application\\DevFreela.Application.csproj",
+  "projectFilePath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Application\\DevFreela.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
-    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
