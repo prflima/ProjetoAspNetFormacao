@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.API.Models;
 using DevFreela.Application.Commands.CreateProject;
+using DevFreela.Application.Commands.CreateUser;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
+using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
+using FluentValidation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -44,6 +47,9 @@ namespace DevFreela.API
 			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProjectCommand).Assembly));
 
 			services.AddControllers();
+
+			 services.AddValidatorsFromAssemblyContaining<CreateUserCommandValidator>();
+
 			services.AddSwaggerGen(c =>
 			{
 				c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevFreela.API", Version = "v1" });
