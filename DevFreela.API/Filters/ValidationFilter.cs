@@ -11,7 +11,15 @@ namespace DevFreela.API.Filters
     {
         public void OnActionExecuted(ActionExecutedContext context)
         {
-            throw new NotImplementedException();
+            if(!context.ModelState.IsValid)
+            {
+                var messages = context.ModelState
+					.SelectMany(ms => ms.Value.Errors)
+					.Select(e => e.ErrorMessage)
+					.ToList();
+                
+                context.Result = new BadRequestObjectResult(messages);
+            }
         }
 
         public void OnActionExecuting(ActionExecutingContext context)

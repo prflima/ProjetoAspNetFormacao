@@ -47,7 +47,6 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -72,3 +71,4 @@ C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Paulo\Desktop\Git\ProjetoAspNetFormacao\DevFreela.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
