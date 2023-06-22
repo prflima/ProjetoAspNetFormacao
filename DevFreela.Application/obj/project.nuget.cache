@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xQrEjs0RMHt8W5POdX6VDNOtq866l9+lmno7KIu3ZH2ShGr/JZ11WWt+hrFdQXqGNhg0jYoOjQ3swbt+2d84Rw==",
+  "dgSpecHash": "vyf094JVaAiwRUvDhD3Nk38A/uGhgcB+WHelpB/Akkip9a+lgaLLguwlMXn4ReZXvKnin+66znkBNcF+ejcCOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Application\\DevFreela.Application.csproj",
+  "projectFilePath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Application\\DevFreela.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",

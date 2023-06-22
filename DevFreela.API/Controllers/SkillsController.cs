@@ -1,16 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.Application.Queries.GetAllSkills;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace DevFreela.API.Controllers
 {
-	[Route("api/skills")]
+    [Route("api/skills")]
+	[Authorize]
 	public class SkillsController : ControllerBase
 	{
 		private readonly IMediator _mediator;
