@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YA23V2k7Pxci0sU+hrpp87/TKLufUgEzhWMVeZlqn+jb/BFeCQk/VbRI6maHZ5SZl0WrHbokN3C6nMPgI9IpYQ==",
+  "dgSpecHash": "/Ko9xXAfTjzYFkvRfry71aBuJR8QfvPrYUhPwhQ7ONInoysJu7V6c8wn5BYc+O1+WWhAhJNMEp0EL4Ho5UTsyw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
