@@ -5820,11 +5820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
       "projectName": "DevFreela.Infrastructure",
-      "projectPath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+      "projectPath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5839,8 +5839,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj": {
-              "projectPath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.Core\\DevFreela.Core.csproj"
+            "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.Core\\DevFreela.Core.csproj": {
+              "projectPath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.Core\\DevFreela.Core.csproj"
             }
           }
         }

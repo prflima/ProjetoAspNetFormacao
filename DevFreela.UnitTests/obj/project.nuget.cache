@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpS/B02DSH/t0Io3hSUMb8eEH8zHumBsmXKz9SLD6WBPjM2Gyc1AFyLrfRNgUhSgmV84SrTb7H+OH4jka4BPzA==",
+  "dgSpecHash": "4dUBbVpCq6yUUKx/pp/6XQa3Vqp5WKRWo3bsOXy3EMBK5sxzNQENLdt5eMvyNo5DNKP8HeRc3KFWu5LoDdUhfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao\\DevFreela.UnitTests\\DevFreela.UnitTests.csproj",
+  "projectFilePath": "c:\\Users\\Paulo\\Desktop\\Git\\ProjetoAspNetFormacao-1\\DevFreela.UnitTests\\DevFreela.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
